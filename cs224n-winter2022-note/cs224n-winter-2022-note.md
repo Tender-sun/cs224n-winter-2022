@@ -4,50 +4,6 @@
 
 [toc]
 
-
-
-----
-## lecture 9 Transformers
-
-### slides
-
-[[slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2022-lecture09-transformers.pdf)] 
-
-### suggested readings
-
-1. （[Project Handout (IID SQuAD track)](http://web.stanford.edu/class/cs224n/project/default-final-project-handout-squad-track.pdf)）
-2. （[Project Handout (Robust QA track)](http://web.stanford.edu/class/cs224n/project/default-final-project-handout-robustqa-track.pdf)）
-3. （[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)）
-4. （[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)）
-5. （[Transformer (Google AI blog post)](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)）
-6. （[Layer Normalization](https://arxiv.org/pdf/1607.06450.pdf)）
-7. （[Image Transformer](https://arxiv.org/pdf/1802.05751.pdf)）
-8. （[Music Transformer: Generating music with long-term structure](https://arxiv.org/pdf/1809.04281.pdf)）
-
-----
-## lecture 10 更多关于Transformers的内容以及预训练
-
-### slides
-
-[[slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2022-lecture10-pretraining.pdf)]      
-
-### suggested readings
-
-1. （[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)）
-2. （[Contextual Word Representations: A Contextual Introduction](https://arxiv.org/abs/1902.06006.pdf)）
-3. （[The Illustrated BERT, ELMo, and co.](http://jalammar.github.io/illustrated-bert/)）
-4. （[Martin & Jurafsky Chapter on Transfer Learning](https://web.stanford.edu/~jurafsky/slp3/11.pdf)）
-
-### huggingface transformers tutorial session
-
-[[Colab](https://colab.research.google.com/drive/1pxc-ehTtnVM72-NViET_D2ZqOlpOi2LH?usp=sharing)]
-
-### assignment5 参考答案
-
-[[code](http://web.stanford.edu/class/cs224n/assignments/a5.zip)] [[handout](http://web.stanford.edu/class/cs224n/assignments/a5.pdf)] [[latex template](http://web.stanford.edu/class/cs224n/assignments/a5_latex.zip)]    
-
-
-
 ----
 ## lecture 11 问答系统
 
