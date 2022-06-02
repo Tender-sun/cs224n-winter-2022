@@ -266,6 +266,8 @@ Transformer是对自然语言处理研究领域的一场革新，几乎目前NLP
 
      BERT在推荐阅读的第一篇（[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)），它的预训练任务是预测被mask掉（80%）、被随机替换（10%）、保持原样（10%）的单词。也是在BookCorpus和Wikipedia上训练的，64张TPU用时4天训练得到，基础模型（12层，768维隐层状态，12注意力头，1.1亿参数），大模型（24层，1024维一层状态，16注意力头，3.4亿参数）。
 
+     BERT的预训练任务是：**Masked language model**（MLM）和**Next sentence prediction**（NSP）
+
      **缺陷**：如果主任务是要生成序列，通常选择使用GPT这类预训练的解码器，BERT并不太适合用于序列自动生成类（一次解码一个单词的那种）的任务。
 
      **变体**：[RoBERTa](https://arxiv.org/abs/1907.11692)，[SpanBERT](https://arxiv.org/abs/1907.10529)
@@ -277,7 +279,7 @@ Transformer是对自然语言处理研究领域的一场革新，几乎目前NLP
      意思应该是，编码器得到最终隐层状态输入解码器，与解码器的输入合并，然后解码器还是一个语言模型，任务就是预测下一个单词。其中编码器的输入是$(w_1,...,w_T)$，解码器的输入是$(w_{T+1},w_{T+2},...,w_{2T})$，解码器的输出是$(w_{T+2},w_{T+3},...,w_{2T+1})$
 
      推荐的一篇使用了这种类型预训练模型的[paper](https://arxiv.org/abs/1907.10529)
-
+   
      T5模型是问答模型的一种预训练模型，可以用来进行微调解决很多问答任务。
 
 ### suggested readings
